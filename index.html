@@ -1,49 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/mainStyle.css">
+    <link rel="stylesheet" href="./styles/painelStyle.css">
     <title>Painel de controle CSS</title>
 </head>
+
 <body>
-    <button id="openModal" class="s">Abrir Painel de Controle</button>
+    
+    <div class="container">
+        <div class="conteinerContent">
+            <h1>Titulo nivel 1</h1>
+            <h2>Titulo nivel 2</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae mollitia tempore aliquid illo obcaecati
+                fuga minima nisi nostrum magni similique fugit, modi at quod praesentium fugiat in sunt. Harum,
+                temporibus?</p>
+            <h2>Titulo nivel 2</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae mollitia tempore aliquid illo obcaecati
+                fuga minima nisi nostrum magni similique fugit, modi at quod praesentium fugiat in sunt. Harum,
+                temporibus?</p>
+            <h2>Titulo nivel 2</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae mollitia tempore aliquid illo obcaecati
+                fuga minima
+                nisi nostrum magni similique fugit, modi at quod praesentium fugiat in sunt. Harum, temporibus?</p>
+        </div>
+        <div class="divBotao"><button id="openModal" class="s">Painel de Controle CSS</button></div>
+    </div>
+    
 
     <!-- Modal -->
     <div id="modal">
-      <div id="modalContent">
-        <h2>Painel de Controle CSS</h2>
-        <form id="controlPanel">
-          <div>
-            <label for="bgColor">Cor de Fundo:</label>
-            <input type="color" id="bgColor" name="bgColor">
-          </div>
-          <div>
-            <label for="textColor">Cor do Texto:</label>
-            <input type="color" id="textColor" name="textColor">
-          </div>
-          <div>
-            <label for="fontSize">Tamanho da Fonte:</label>
-            <input type="range" id="fontSize" name="fontSize" min="12" max="36">
-          </div>
-          <div>
-            <label for="fontFamily">Fonte:</label>
-            <select id="fontFamily" name="fontFamily">
-              <option value="Arial">Arial</option>
-              <option value="Helvetica">Helvetica</option>
-              <option value="Times New Roman">Times New Roman</option>
-              <option value="Courier New">Courier New</option>
-            </select>
-          </div>
-          <div>
-            <button type="button" id="applyChanges">Aplicar</button>
-            <button type="button" id="closeModal">Fechar</button>
-          </div>
-          <div id="preview">Previa das alterações de estilo</div> <!-- div para exibir a prévia -->
-        </form>
-      </div>
-    </div>
+        <div id="modalContent">
+            <form id="controlPanel">
+                <div class='painelConfigs'>
 
+                    <div id="mydivheader">Arraste para mover</div>
+
+                    <h2 id="headerPainel">Painel de Controle CSS</h2>
+                    <div class="centralizer">
+                        <label for="bgColor" class="labels">Cor de Fundo:</label>
+                        <input type="color" id="bgColor" name="bgColor" value="#000000">
+                    </div>
+                </div>
+
+                <div class="centralizer">
+                    <label for="textColor" class="labels">Cor do Texto:</label>
+                    <input type="color" id="textColor" name="textColor" value="#ffffff">
+                </div>
+
+                <div class="centralizer">
+                    <label for="fontSize" style="font-size: 18px;">Tamanho da Fonte:</label>
+                    <input type="range" id="fontSize" name="fontSize" min="12" max="36">
+                </div>
+
+                <div class="centralizer">
+                    <label for="fontFamily" class="labels">Fonte:</label>
+                    <select id="fontFamily" name="fontFamily">
+                        <option value="Arial">Arial</option>
+                        <option value="Helvetica">Helvetica</option>
+                        <option value="Times New Roman">Times New Roman</option>
+                        <option value="Courier New">Courier New</option>
+                    </select>
+                </div>
+
+                <div class="centralizer" style="margin: 20px;">
+                    <button type="button" id="applyChanges" style="margin-right: 5px; font-size: 20px;">Aplicar</button>
+                    <button type="button" id="closeModal" style="margin-left: 5px; font-size: 20px;">Fechar</button>
+                </div>
+                <!-- div para exibir a prévia -->
+                <div id="preview" class="centralizer">Previa das alterações de estilo</div>
+
+            </form>
+        </div>
+    </div>
+    <script src="./scripts/manipulaçãoDoModal.js"></script>
     <script src="./scripts/mainScript.js"></script>
 </body>
+
 </html>

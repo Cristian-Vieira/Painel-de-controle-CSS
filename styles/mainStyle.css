@@ -1,82 +1,34 @@
-    #modal {
-      display: none;
-      position: fixed;
-      z-index: 1;
-      padding-top: 100px;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      overflow: auto;
-      background-color: rgba(0, 0, 0, 0.4);
-    }
-
-    #modalContent {
-      background-color: #fefefe;
-      margin: auto;
-      padding: 20px;
-      border: 1px solid #888;
-      width: 50%;
-    }
-
-    #modalContent h2 {
-      margin-top: 0;
-    }
-
-    #controlPanel div {
-      margin-bottom: 10px;
-    }
-
-    #controlPanel label {
-      display: inline-block;
-      width: 150px;
-      font-weight: bold;
-    }
-
-    #controlPanel input[type="color"] {
-      height: 30px;
-      width: 60px;
-      vertical-align: middle;
-    }
-
-    #controlPanel input[type="range"] {
-      width: 100%;
-    }
-
-    #controlPanel select {
-      height: 30px;
-      width: 100%;
-    }
-
-    #controlPanel button {
-      height: 30px;
-    }
-
-    #applyChanges {
-      background-color: #4CAF50;
-      color: white;
-      border: none;
-      cursor: pointer;
-    }
-
-    #applyChanges:hover {
-      background-color: #3e8e41;
-    }
-
-    #closeModal {
-      background-color: #f44336;
-      color: white;
-      border: none;
-      cursor: pointer;
-    }
-
-    button.s {
-      background-color: #4CAF50;
-      color: white;
-      border: none;
-      cursor: pointer;
-    }
-
-    #closeModal:hover {
-      background-color: #c62828;
-    }
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: rgb(0, 0, 0);
+    background-color: rgba(128, 128, 128, 0.674);
+  
+    font-size: 30px;
+  }
+  .container {
+    padding: 50px;
+  }
+  .containerContent{
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  .divBotao{
+    display:flex;
+    justify-content: center;
+  }
+  button.s {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
