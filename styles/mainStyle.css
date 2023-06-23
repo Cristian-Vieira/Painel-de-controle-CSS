@@ -23,7 +23,7 @@ body {
   justify-content: center;
 }
 
-.s {
+.openBtn {
   background-color: #4CAF50;
   color: white;
   border: none;
@@ -33,6 +33,6 @@ body {
   padding: 8px;
   border-radius: 15px;
 }
-.s:hover {
+.openBtn:hover {
   background-color: #3e8e41;
 }
