@@ -24,7 +24,7 @@ controlPanelForm.addEventListener('submit', event => event.preventDefault());
 
 previewDiv.style.backgroundColor = bgColorInput.value;
 previewDiv.style.color = textColorInput.value;
-// selecione os elementos do painel de controle
+
 // adicione um evento "change" a cada elemento de entrada do painel de controle
 bgColorInput.addEventListener("change", () => {
     previewDiv.style.backgroundColor = bgColorInput.value;

@@ -1,16 +1,12 @@
 body {
     font-family: sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+
     color: rgb(0, 0, 0);
     background-color: rgba(128, 128, 128, 0.674);
-  
     font-size: 30px;
   }
   .container {
-    padding: 50px;
+    padding: 25px;
   }
   .containerContent{
     text-align: center;
@@ -30,5 +26,8 @@ body {
     border: none;
     cursor: pointer;
     font-size: 20px;
+    position: fixed;
+    padding: 8px;
+    border-radius: 15px ;
   }
   

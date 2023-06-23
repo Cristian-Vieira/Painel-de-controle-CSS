@@ -12,42 +12,31 @@
 }
 
 #modalContent {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: #fefefe;
-    margin: auto;
-    border: 1px solid #888;
+    border: 1px solid #000000c4;
     width: 330px;
     height: auto;
-    border: 1px solid #333;
     padding: 8px 12px;
-
+    border-radius: 15px;
 }
 
 #mydivheader {
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: move;
     z-index: 10;
     background-color: #504f4f;
     color: #fff;
     width: 100%;
     height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
 }
 
 .labels {
     font-size: 20px;
 }
 
-#headerPainel {
-    margin-top: 0;
-    color: rgba(0, 0, 0, 0.877);
-    font-size: 25px;
-    text-align: center;
-
-}
 
 .centralizer {
     display: flex;
@@ -85,7 +74,7 @@
 }
 
 #controlPanel button {
-    height: 30px;
+  font-size: 15px;
 }
 
 #applyChanges {
@@ -93,6 +82,10 @@
     color: white;
     border: none;
     cursor: pointer;
+    border-radius: 15px;
+    margin-right: 5px;
+    text-align: center;
+    padding: 8px;
 }
 
 #applyChanges:hover {
@@ -104,6 +97,9 @@
     color: white;
     border: none;
     cursor: pointer;
+    border-radius: 15px;
+    margin-left: 5px;
+    padding: 8px;
 }
 
 #preview {
