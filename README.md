@@ -1,7 +1,7 @@
 # Painel de controle CSS
- #### **Um painel de controle CSS para o usuario controlar o style dos elementos da forma que achar melhor**
+ #### **Um painel de controle CSS que permite aos usuários controlar o estilo dos elementos da página**
 
-- O projeto surgiu da seguinte ideia: E se o usuario poder controlar os estilos dos elementos da pagina?
+- A ideia por trás deste projeto surgiu com a pergunta: E se os usuários pudessem controlar os estilos dos elementos da página? 
 - Este é um projeto de laboratório destinado a aprimorar minhas habilidades, portanto, pode não haver atualizações
 - Sinta-se à vontade para usar este repositorio como quiser e contribuir com melhorias, abrindo issues ou pull requests.
 
