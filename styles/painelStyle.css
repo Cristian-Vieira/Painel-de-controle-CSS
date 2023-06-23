@@ -2,7 +2,7 @@
     display: none;
     position: fixed;
     z-index: 1;
-    padding-top: 100px;
+    padding-top: 150px;
     left: 0;
     top: 0;
     width: 100%;
@@ -37,7 +37,6 @@
     font-size: 20px;
 }
 
-
 .centralizer {
     display: flex;
     align-items: center;
@@ -47,9 +46,7 @@
 
 #controlPanel div {
     margin-bottom: 10px;
-
 }
-
 
 #controlPanel label {
     display: inline-block;
@@ -100,10 +97,6 @@
     border-radius: 15px;
     margin-left: 5px;
     padding: 8px;
-}
-
-#preview {
-    width: 100%;
 }
 
 #closeModal:hover {
