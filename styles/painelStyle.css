@@ -102,3 +102,7 @@
 #closeModal:hover {
     background-color: #c62828;
 }
+
+#preview{
+    border-radius: 10px;
+}
