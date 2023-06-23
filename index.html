@@ -36,46 +36,45 @@
         <div class="centralizer">
             <div id="modalContent">
                 <form id="controlPanel">
-                    <div class='painelConfigs'>
-
-                    <div id="mydivheader">Painel de Controle CSS</div> 
-    
-                        <div class="centralizer">
-                            <label for="bgColor" class="labels">Cor de Fundo:</label>
-                            <input type="color" id="bgColor" name="bgColor" value="#000000">
+                    <div>
+                        <div id="mydivheader">Painel de Controle CSS</div> 
+                            <div class="centralizer">
+                                <label for="bgColor" class="labels">Cor de Fundo:</label>
+                                <input type="color" id="bgColor" name="bgColor" value="#000000">
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="centralizer">
-                        <label for="textColor" class="labels">Cor do Texto:</label>
-                        <input type="color" id="textColor" name="textColor" value="#ffffff">
-                    </div>
+                        <div class="centralizer">
+                            <label for="textColor" class="labels">Cor do Texto:</label>
+                            <input type="color" id="textColor" name="textColor" value="#ffffff">
+                        </div>
 
-                    <div class="centralizer">
-                        <label for="fontSize" style="font-size: 18px;">Tamanho da Fonte:</label>
-                        <input type="range" id="fontSize" name="fontSize" min="12" max="40">
-                    </div>
+                        <div class="centralizer">
+                            <label for="fontSize" style="font-size: 18px;">Tamanho da Fonte:</label>
+                            <input type="range" id="fontSize" name="fontSize" min="12" max="40">
+                        </div>
 
-                    <div class="centralizer">
-                        <label for="fontFamily" class="labels">Fonte:</label>
-                        <select id="fontFamily" name="fontFamily">
-                            <option value="Arial">Arial</option>
-                            <option value="Helvetica">Helvetica</option>
-                            <option value="Times New Roman">Times New Roman</option>
-                            <option value="Courier New">Courier New</option>
-                            <option value="Sans Serif">Sans Serif</option>
-                            <option value="monospace">Monospace</option>
-                            <option value="fantasy">Fantasy</option>
-                        </select>
-                    </div>
+                        <div class="centralizer">
+                            <label for="fontFamily" class="labels">Fonte:</label>
+                            <select id="fontFamily" name="fontFamily">
+                                <option value="Arial">Arial</option>
+                                <option value="Helvetica">Helvetica</option>
+                                <option value="Times New Roman">Times New Roman</option>
+                                <option value="Courier New">Courier New</option>
+                                <option value="Sans Serif">Sans Serif</option>
+                                <option value="monospace">Monospace</option>
+                                <option value="fantasy">Fantasy</option>
+                            </select>
+                        </div>
+                        <!-- div para exibir a prévia -->
+                        <div id="preview" class="centralizer">Previa das alterações de estilo</div>
 
-                    <div class="centralizer">
-                        <button type="button" id="applyChanges">Aplicar</button>
-                        <button type="button" id="closeModal" >Fechar</button>
+                        <div class="centralizer">
+                            <button type="button" id="applyChanges">Aplicar</button>
+                            <button type="button" id="closeModal" >Fechar</button>
+                        </div>
+                        
                     </div>
-                    <!-- div para exibir a prévia -->
-                    <div id="preview" class="centralizer">Previa das alterações de estilo</div>
-
                 </form>
             </div>
         </div>
