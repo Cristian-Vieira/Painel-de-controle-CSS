@@ -1,3 +1,4 @@
+ // Get elements of DOM
 const MODAL = document.getElementById('modal');
 const ABRIR_PAINEL_BTN = document.getElementById('openModal');
 const FECHAR_PAINEL_BTN = document.getElementById('closeModal');
